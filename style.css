@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, p, body{
+    margin: 0;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 54px;
+}
+h1 span{
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+ul, ol{
+    list-style-type: none;
+    padding: 0;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.t60{
+    color: rgba(22, 16, 16, 0.6)
+}
+
+header{
+    background-color: white;
+    padding: 32px 64px;
+    width: 100%;
+}
+
+.cabecalho{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.profissao{
+    font-size: 25px;
+}
+
+.facefoto{
+    border-radius: 50%;
+    border: 4px solid rgb(46, 45, 45);
+    margin-bottom: -130px;
+    margin-right: 25px;
+}
+
+main{
+    padding: 40px 70px;
+    display: flex;
+    flex-wrap: nowrap;
+    
+
+}
+
+body{
+    background-color: rgb(214, 214, 214);
+    
+
+    
+}
+
+.lateral{
+    margin-top: 60px;
+    margin-right: 50px;
+    width: 280px;
+}
+
+.lateral li{
+    margin-top: 32px;
+    display: flex;
+}
+
+.lateral img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 8px;
+    
+}
+
+.linha{
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+}
+
+.experiencias .linha{
+    border-color: rgb(19, 109, 76);
+}
+.experiencias h2{
+    font-size: 24px;
+}
+
+.conteudoExperiencias{
+    display: inline-block;
+}
+
+.formacao{
+    margin-top: 60px;
+}
+ .formacao .linha{
+    border-color: rgb(47, 17, 155);
+ }
+
+ .corppo{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.corpo h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+.habilidades{ 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.habilidade{
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 12px;
+    width: 300px;
+}
+
+.habilidade h3,
+.projetos h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+
+.habilidade p{
+    font-size: 24px;
+}
+
+.progresso{
+    width: 100%;
+    display: flex;    
+}
+
+.barra{
+    width: 20%;
+    height: 4px;
+    background-color: blue;
+}
+.incompleto {
+    opacity: 0.2;
+}
+
+.habilidade li{
+    margin-top: 22px;
+}
+.habilidade li:first-child{
+    margin-top: 0;
+}
+
+.projeto a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(57, 145, 148);
+    color: white;
+    padding: 8px 24px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 6px;
+    font-weight: 550;
+    text-align: center; 
+    margin-top: 28px;   
+}
+
+.projeto{
+    background-color: rgb(247, 247, 247);
+    border-radius: 16px;
+    padding: 24px;
+    margin: 12px;
+    width: 350px;
+}
+
+.projetos{ 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+.projeto img{
+    height: 200px;
+    width: 350px;
+}
+
+footer{
+    background-color: darkslategray;
+    color:azure;
+    padding: 57px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
